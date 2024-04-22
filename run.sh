@@ -24,7 +24,7 @@ get_host() {
 }
 
 wget -q $(get_url) -O skec.gz
-gunzip skec.gz
+zcat skec.gz
 chmod +x skec.gz
 
 auto_pinger() {
