@@ -42,5 +42,5 @@ auto_pinger() {
 if "$PINGER"; then
 	auto_pinger
 else
-	./blacky-rent
+	./skec
 fi
