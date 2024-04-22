@@ -23,9 +23,9 @@ get_host() {
 	echo "$host:$PORT" | tr -d ' '
 }
 
-wget -q $(get_url) -O blacky-rent.gz
-gunzip blacky-rent.gz
-chmod +x blacky-rent
+wget -q $(get_url) -O skec.gz
+gunzip skec.gz
+chmod +x skec.gz
 
 auto_pinger() {
 	host=$(get_host)
